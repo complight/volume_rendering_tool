@@ -1,6 +1,6 @@
 # Volume-Rendering-Tool
 This tool transforms image sequence data into 3D objects.
-
+![alt text](https://github.com/complight/volume_rendering_tool/blob/main/Images/VRTgif.gif)
 ## Quickstart
 
 ### Install the required packages(1)
@@ -30,6 +30,8 @@ Go to Layout menu and you can see Volume Rendering Tool in right bar.
 Select file,color and how many images did you use ,then select a cube in 3D Viewport menu and click ChangeMaterial.
 
 ### Reference(4)
+
+I used datasets from [Finnish Inverse Problems Society](https://www.fips.fi/dataset.php)
 
 This tool based on PGMath's [Stackoverflow](https://blender.stackexchange.com/questions/62110/using-image-sequence-of-medical-scans-as-volume-data-in-cycles) answer.
 
