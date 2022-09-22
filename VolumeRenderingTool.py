@@ -13,6 +13,8 @@ import bpy
 
 #Cube = bpy.ops.mesh.primitive_cube_add(location = (0,0,0))
 
+bpy.context.scene.render.engine = 'CYCLES'
+
 def create_2d_3d_converter(image_path,color,number):
     new_color = [0,0,0,1]
     for i in range(len(color)):
@@ -161,7 +163,7 @@ class CREATE_OT_MATERIAL(bpy.types.Operator):
     
 def register():
     bpy.types.Scene.my_path = bpy.props.StringProperty(name="File", subtype='FILE_PATH')
-    bpy.types.Scene.my_color = bpy.props.FloatVectorProperty(name ="Color",subtype = 'COLOR_GAMMA')
+    bpy.types.Scene.my_color = bpy.props.FloatVectorProperty(name ="Color",subtype = 'COLOR_GAMMA', default = (1,1,1))
     bpy.types.Scene.my_int = bpy.props.IntProperty(name = 'Image Number:')
     bpy.utils.register_class(MainPanel)
     bpy.utils.register_class(CAMERA_OT_LOCKED)
