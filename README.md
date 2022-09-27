@@ -28,7 +28,7 @@ Click folder button and find **VolumeRenderingTool.py**.Then run it.
 
 Go to Layout menu and you can see Volume Rendering Tool in right bar.
 
-![alt text](https://github.com/complight/volume_rendering_tool/blob/main/Images/VolumeRendering.JPG)
+![alt text](https://github.com/complight/volume_rendering_tool/blob/main/Images/VolumeRenderingTool.JPG)
 
 Select file,color and how many images did you use ,then select a cube in 3D Viewport menu and click ChangeMaterial.
 
