@@ -14,7 +14,9 @@ Manually you can download via links:
 
 ### Sprite Tool Preprocess(2)
 Go to SpriteTool and make all images **side-by-side** 
+
 Or you can use **imageconcatenate.py** after editing path.(Images are in the file must be in-order!)
+
 ![alt text](https://github.com/complight/volume_rendering_tool/blob/main/Images/SpliteTool.JPG)
 
 ### Run code in blender(3)
