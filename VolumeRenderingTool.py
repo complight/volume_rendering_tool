@@ -116,8 +116,8 @@ class MainPanel(bpy.types.Panel):
         
         row.operator('camera.locked_operator', icon = 'CUBE')
         row = layout.row()
-        row.operator('camera.follow_operator', icon = 'CUBE')
-        row = layout.row()
+        #row.operator('camera.follow_operator', icon = 'CUBE')
+        #row = layout.row()
         row.operator('create.material_operator', icon = 'CUBE')
         row = layout.row()
         
